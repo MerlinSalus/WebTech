@@ -1,0 +1,6 @@
+ul.breadcrumb li{
+        display: inline;
+}
+ul.breadcrumb li+li:before{
+        content: "/\00a0";
+}
