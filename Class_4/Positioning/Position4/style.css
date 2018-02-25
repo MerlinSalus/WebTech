@@ -1,0 +1,16 @@
+.container {
+        position: relative;
+    }
+    
+    .topleft {
+        font-size: 18px;
+        position: absolute;
+        top: 15px;
+        left: 30px;
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+        opacity: 0.3;
+    }
