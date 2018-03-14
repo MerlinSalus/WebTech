@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Currency Exchange Place</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+    <body>
+        <h1>
+            Welcome to the EUR-USD-GBP currency converter
+
+        </h1>
+        <div class="wrapper">
+            <br>
+            <input type="number" name="amount"  id="amount"><br>
+       
+        <button type="submit" value="submit" id = "Submit-Button">Submit</button>
+        <br>
+
+        <section class="conversionForm__currencies">
+            <div class="conversionForm__from">
+                <label>From:</label>
+                <select class="convertFrom" id = "currFrom">
+                    <option value = "EUR">EUR</option>
+                    <option value = "GBP">GBP</option>
+                    <option value = "USD">USD</option>
+                </select>
+            </div>
+
+            <div class="conversionForm__to">
+                <label>To:</label>
+                <select class="convertTo" id = "currTo">
+                    <option value = "EUR">EUR</option>
+                    <option value = "GBP">GBP</option>
+                    <option value = "USD">USD</option>
+                </select>
+            </div>
+        </section>
+        <br>
+        <p id = "Converted"></p>
+    </div>
+    </body>
+    <script src="js/converter.js"></script>
+</html>

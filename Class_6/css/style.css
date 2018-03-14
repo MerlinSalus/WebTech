@@ -1,0 +1,47 @@
+body{
+    background-color: pink;
+}
+h1{
+    position: relative;
+    left: 20%;
+    color: rgb(255, 0, 128);
+    font-size: 46px;
+}
+div.wrapper {
+    position: relative;
+    left: 40%;
+    width: 300px;
+    height:300px;
+    border:2px solid red;
+}
+
+input{
+     display: block;
+     margin : 0 auto;
+}
+button{
+    display: block;
+     margin : 0 auto;
+}
+label{
+    display: block;
+    margin : 0 auto;
+}
+.convertFrom{
+    display: block;
+    margin : 0 auto;
+}
+.convertTo{
+    display: block;
+    margin : 0 auto;
+}
+label{
+    color:rgb(255, 0, 128);
+    font-size: 20px;
+}
+p{
+    color: blueviolet;
+    font-size: 20px;
+    position: relative;
+    left:35%
+}
